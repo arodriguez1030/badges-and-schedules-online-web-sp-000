@@ -24,6 +24,6 @@ def assign_rooms(array)
     end
     
     assign_rooms(array).each do |id|
-      puts assignments
+      puts id
     end
 end
