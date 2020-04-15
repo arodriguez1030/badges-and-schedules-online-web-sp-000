@@ -13,6 +13,6 @@ end
 
 def assign_rooms(array)
   assignments= []
-  array.each do |name|
+  array.each_with_indeex {|name|
     assignments << "Hello #{name}! You'll be assigned to room "
   
