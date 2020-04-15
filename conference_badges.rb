@@ -14,6 +14,6 @@ end
 def assign_rooms(array)
   assignments= []
   array.each_with_indeex {|name, index|}
-    assignments.push("Hello #{name}! You'll be assigned to room #{index + 1}!")
+    assignments << "Hello #{name}! You'll be assigned to room #{index + 1}!"
     return assign
 end
